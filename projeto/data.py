@@ -2,7 +2,7 @@ import psycopg2
 from urllib.parse import urlparse
 
 # URL de conexão do banco (Railway)
-DATABASE_URL = "postgresql://postgres:LsViiuogBzkUISNbtKTpOHWNrYmNefnV@roundhouse.proxy.rlwy.net:36019/railway"
+DATABASE_URL = "postgresql://postgres:********@roundhouse.proxy.rlwy.net:36019/railway"
 
 # Extrair as informações de conexão da URL(database, usuário, password,etc)
 url = urlparse(DATABASE_URL)
