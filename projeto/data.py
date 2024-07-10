@@ -81,9 +81,6 @@ def show_users():
   except Exception as e:
      return(f'Ocorreu um erro: {e}')
 
-
-import psycopg2
-
 def check_login(username, senha):
     try:
         # Conexão ao banco de dados PostgreSQL
